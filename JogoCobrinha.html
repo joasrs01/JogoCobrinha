@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da Cobrinha</title>
+</head>
+<body>
+    <h1>Jogo da Cobrinha!</h1>
+    <h3>W - cima, S - baixo, A - esqueda, D - direita</h3>
+    <div id="campo-placar">
+        <div id="div-campo">
+            <table id="table-campo">
+            </table>
+        </div>
+        <div id="div-placar">
+            <h2>Placar do Jogo</h2>
+            bonus coletados: <span id="qtd-bonus"></span>
+            <p>Digite seu nome para registrar o resultado: <input type="text" id="txt-nome"></p>
+            <div id="recordes">
+                <h2>Recordes</h2>
+                <ul id="lista-recordes">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div id="div-game-over">
+                <h2 style="color: red;">Game Over!</h2>
+                <input type="button" value="Recomeçar" id="btn-recomecar">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
